@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Контакты";
+}
+<link href="~/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="~/css/style.css" rel="stylesheet" type="text/css" />
+
+<section id="contact" class="contact-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Контакты</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="contact-info">                   
+                    <br><p>Не стесняйтесь обращаться к нам с любыми вопросами. Мы здесь, чтобы помочь.</p>
+                    <ul>
+                        <li><i class="fa fa-map-marker"></i> г. Витебск, пр-т Московский 70/2, 310Б</li>
+                        <li><i class="fa fa-phone"></i> +375(29)5188992</li>
+                        <li><i class="fa fa-envelope"></i> whiteorangetv@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="contact-form">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" name="name" placeholder="Ваше имя">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" name="email" placeholder="Ваш Email">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" name="subject" placeholder="Тема вопроса">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea name="message" placeholder="Сообщение"></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <button class="btn btn-primary" type="submit">Отправить сообщение</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
